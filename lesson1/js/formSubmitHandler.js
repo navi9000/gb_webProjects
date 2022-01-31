@@ -1,4 +1,4 @@
-import { execute } from "./main.js"
+import execute from "./execute.js"
 
 export default function formSubmitHandler(form, formHandler, ...args) {
     form.onsubmit = e => {
