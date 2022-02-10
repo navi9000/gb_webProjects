@@ -1,6 +1,5 @@
-const result = document.getElementById('calc_result')
-
-export default function showError() {
+export default function showError(formType) {
+    const result = document.getElementById(`${formType}_result`)
     result.style.color = "red"
-    result.innerHTML = "Please submit two dates"
+    result.innerHTML = "Please fill out all the input fields"
 }
