@@ -24,6 +24,7 @@ module.exports = {
         new HtmlPlugin({template: resolve(__dirname, 'index.html')}),
         new BundleAnalyzerPlugin()
     ],
+    
     optimization: {
         splitChunks: {
             chunks: 'all'
